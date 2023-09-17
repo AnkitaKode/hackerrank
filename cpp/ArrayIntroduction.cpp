@@ -5,7 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-void sam(int A[], int size)
+void display(int A[], int size)
 {
     for (int i = size - 1; i >= 0; i--)
     {
@@ -23,6 +23,6 @@ int main()
     {
         cin >> A[i];
     }
-    sam(A, size);
+    display(A, size);
     return 0;
 }
